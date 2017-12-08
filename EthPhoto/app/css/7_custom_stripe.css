@@ -1,0 +1,82 @@
+#photo_stripe {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 20%;
+	border-color: black;
+	background-color: black;
+	display: none;
+	z-index: 1001;
+}
+
+#trigger_stripe {
+	position: fixed;
+	z-index: 1000;
+	cursor: pointer;
+	right: 25px;
+	top: 20px;
+	background-color: #207ac9;
+	color:white;
+	padding:6px 8px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#photo_stripe img {
+	height: 100%;
+	padding: 2px 2px 2px 2px;
+}
+
+.photo_box{
+	border: 4px solid ;
+}
+
+
+#viewer_info {
+	margin-top: 100px;
+	display: none;
+}
+
+#photoViewer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	text-align: center;
+	display: none;
+	height: 80%;
+	overflow: auto;
+}
+
+#photoViewer .card{
+	margin-top: 30px; 
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 5px;*/
+}
+
+@media only screen and (max-width: 600px){
+	#photoViewer .card {
+		width: 100%;
+	}
+
+}
+@media only screen and (min-width: 600px) {
+	#photoViewer .card {
+		max-width: 70%;
+	}
+}
+
+#pv1card {
+	background-color: transparent;
+}
+
+#pv1cardimage {
+	top: 20%;
+}

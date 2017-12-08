@@ -1,0 +1,12 @@
+{
+  "default": {
+    "gas": "30000000",
+    "contracts": {
+      "SimpleStorage": {
+        "args": [
+          100
+        ]
+      }
+    }
+  }
+}
