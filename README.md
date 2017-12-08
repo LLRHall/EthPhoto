@@ -7,13 +7,13 @@ Decentralized Photo Sharing using The Ethereum based Blockchain Platform
 
 Required packages to build and run the software
 -------------------------------------
-ethereum (geth)
-nodejs
-npm
-embark
-go-ipfs
-mist browser
-ntp
+* ethereum (geth)
+* nodejs
+* npm
+* embark
+* go-ipfs
+* mist browser
+* ntp
 
 
 Platform
